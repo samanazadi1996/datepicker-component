@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery.fn.extend demo</title>
+    <style>
+      .ss {
+        color: red;
+      }
+      .ClassTest2 {
+        background-color: silver;
+        width: 215px;
+        padding: 2px;
+        text-align: center;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <div class="form-group p-2">
+      <input type="text" id="test1" />
+    </div>
+
+    <div class="form-group p-2">
+      <input type="text" id="test2" />
+    </div>
+
+    <div class="form-group p-2">
+      <input type="text" id="test3" class="form" />
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="SA-Date.js"></script>
+    <script>
+      $("#test1").check();
+
+      var model = {
+        maxyear: 1375,
+        minyear: 1369,
+        required: true,
+        class: "class1 class2 ss",
+        bodyClass: "ClassTest2",
+      };
+      $("#test2").check(model);
+
+      var model2 = {
+        maxyear: 1400,
+        minyear: 1375,
+        required: false,
+        class: "form-control",
+      };
+      $("#test3").check(model2);
+    </script>
+  </body>
+</html>

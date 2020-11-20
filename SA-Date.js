@@ -1,7 +1,13 @@
+//repositories in github.com 
+//https://github.com/samanazadi1996/datepicker-component
+//moore component https://github.com/samanazadi1996
+
 jQuery.fn.extend({
   check: function (model = false) {
     return this.each(function () {
       var elementId = this.getAttribute("id");
+      this.style.display = "none";
+
       var select_year = document.createElement("select");
       var select_month = document.createElement("select");
       var select_day = document.createElement("select");
@@ -62,14 +68,14 @@ jQuery.fn.extend({
       td_year.appendChild(select_year);
       td_day.appendChild(select_day);
 
-      // select_year.setAttribute("inp", elementId);
-      // select_month.setAttribute("inp", elementId);
-      // select_day.setAttribute("inp", elementId);
-
       if (model.class) {
         select_year.setAttribute("class", model.class);
         select_month.setAttribute("class", model.class);
         select_day.setAttribute("class", model.class);
+      }
+
+      if (model.bodyClass) {
+        table.setAttribute("class", model.bodyClass);
       }
 
       select_year.setAttribute("id", elementId + "_Sa_Date_Select_year");
