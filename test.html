@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.fn.extend demo</title>
+  <style>
+  .ss {
+color: red; 
+ }
+  </style>
+</head>
+<body>
+ 
+  <input type="text" name="bar" id="pp" />
+<br>
+<br>
+<br>
+<input type="text" name="bar" id="o" />
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="SA-Date.js"></script>
+ <script>
+   var model={
+    maxyear:1375,
+    minyear:1369,
+    required:true,
+    class:"class1 class2 ss"
+  }
+  $("#o").check(model);
+  $("#pp").check();
+ </script> 
+</body>
+</html>
