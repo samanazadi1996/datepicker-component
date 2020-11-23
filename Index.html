@@ -34,28 +34,25 @@
     <div class="form-group p-2">
       <input type="text" id="test3" class="form" />
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="SA-Date.js"></script>
     <script>
-      $("#test1").check();
+      $("#test1").SA_DedePicker();
 
       var model = {
-        maxyear: 1375,
-        minyear: 1369,
+        maxyear: getYearPersian()+5,
+        minyear: getYearPersian()-5,
         required: true,
         class: "class1 class2 ss",
         bodyClass: "ClassTest2",
       };
-      $("#test2").check(model);
+      $("#test2").SA_DedePicker(model);
 
       var model2 = {
-        maxyear: 1400,
-        minyear: 1375,
-        required: false,
         class: "form-control",
       };
-      $("#test3").check(model2);
+      $("#test3").SA_DedePicker(model2);
     </script>
   </body>
 </html>
