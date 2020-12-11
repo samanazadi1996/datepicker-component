@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>jQuery.fn.extend demo</title>
+    <title>test SA_Date</title>
     <style>
       .ss {
         color: red;
@@ -34,25 +34,41 @@
     <div class="form-group p-2">
       <input type="text" id="test3" class="form" />
     </div>
+    <div class="d-flex p-2">
+      <div class="col-3">
+        <p class="">1996-07-04T12:00:00-06:30</p>
+      </div>
+      <div class="col-3">
+        <p class="ToPersianDate">1996-07-04T12:00:00-06:30</p>
+      </div>
+      <div class="col-3">
+        <p class="ToPersianDate">2018-03-25T12:00:00-06:30</p>
+      </div>
+      <div class="col-3">
+        <p class="ToPersianDate ShortDate">2020-03-25T12:00:00-06:30</p>
+      </div>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="SA-Date.js"></script>
     <script>
-      $("#test1").SA_DedePicker();
+      $("#test1").SA_DetePicker();
 
       var model = {
-        maxyear: getYearPersian()+5,
-        minyear: getYearPersian()-5,
+        maxyear: getPersianYear()+5,
+        minyear: getPersianYear()-5,
         required: true,
         class: "class1 class2 ss",
         bodyClass: "ClassTest2",
-      };
-      $("#test2").SA_DedePicker(model);
+            };
+      $("#test2").SA_DetePicker(model);
 
       var model2 = {
         class: "form-control",
+        type: 'Gregorian',
+
       };
-      $("#test3").SA_DedePicker(model2);
+      $("#test3").SA_DetePicker(model2);
     </script>
   </body>
 </html>
