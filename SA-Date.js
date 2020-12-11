@@ -5,9 +5,9 @@
 jQuery.fn.extend({
   SA_DetePicker: function (model = false) {
     return this.each(function () {
-      // this.style.display = "none";
+      this.style.display = "none";
       this.parentElement.setAttribute("dir", "ltr");
-      var SA_Element = "S_A_" + new_guid().replaceAll("-", "_");
+      var SA_Element = "S_A_" + new_guid().replace(/[()-\s]+/g, '_');
       this.setAttribute("sa_date", SA_Element);
 
       var select_year = document.createElement("select");
