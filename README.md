@@ -100,4 +100,4 @@ $("#date").SA_DatePicker({
 | getGregorianYear() | سال جاری را به صورت میلادی برمیگرداند |
 | PersianDateToGregorianDate("1375/4/14")   | تاریخ درج شده را به صورت میلادی برمیگرداند |
 | GregorianDateToPersianDate("2020-10-19","shortdate")| تاریخ را به صورت شمسی به فرمت کوتاه برمیگرداند |
-| GregorianDateToPersianDate("2020-10-19","longdate")| برای برکرداندت تاریخ و ساعت به صورت کامل استفاده میشود|
+| GregorianDateToPersianDate("2020-10-19","longdate")| برای برگرداندن تاریخ و ساعت به صورت کامل استفاده میشود|
