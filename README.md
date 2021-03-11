@@ -1,10 +1,12 @@
 <div dir="rtl">
-   <h1 class="text-center">
+   <center>
+   <h1>
    انتخابگر تاریخ
    </h1>
-   <div class="text-center">
-   <img src="https://raw.githubusercontent.com/samanazadi1996/datepicker-component/master/Images/Image1.png">
-</div>
+
+<img src="https://raw.githubusercontent.com/samanazadi1996/datepicker-component/master/Images/Image1.png">
+</center>
+
 .با سلام خدمت برنامه نویسان عزیز
 از انجایی که این انتخابگر تاریخ برای انتخاب تاریخ های شمسی طراحی شده است ما این مقاله را با زبان فارسی برای شما تهیه کردیم
 از جمله مشکلاتی که ما برنامه نویسان  با آن مواجه هستیم وارد کردن تاریخ شمسی با یک فرمت مناسب  بدون وابسته کردن پروژه به پکیج های تبدیل تاریخ در صفحات وب است .
