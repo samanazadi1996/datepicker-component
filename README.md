@@ -1,10 +1,8 @@
 <div dir="rtl">
-<div style="text-align: center">
-#انتخابگر تاریخ
-</div>
-![alt text](https://raw.githubusercontent.com/samanazadi1996/datepicker-component/master/Images/Image1.png)
-   
-
+   <h2>
+   انتخابگر تاریخ
+   </h2>
+   <img src="https://raw.githubusercontent.com/samanazadi1996/datepicker-component/master/Images/Image1.png">
 
 .با سلام خدمت برنامه نویسان عزیز
 از انجایی که این انتخابگر تاریخ برای انتخاب تاریخ های شمسی طراحی شده است ما این مقاله را با زبان فارسی برای شما تهیه کردیم
