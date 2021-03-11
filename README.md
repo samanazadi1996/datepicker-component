@@ -1,6 +1,11 @@
 # انتخابگر تاریخ
 
-![alt text](https://s16.picofile.com/file/8427622592/Image1.png)
+![alt text](https://raw.githubusercontent.com/samanazadi1996/datepicker-component/master/Images/Image1.png)
+
+<div dir="rtl">
+تست
+</div>
+
 
 .با سلام خدمت برنامه نویسان عزیز
 از انجایی که این انتخابگر تاریخ برای انتخاب تاریخ های شمسی طراحی شده است ما این مقاله را با زبان فارسی برای شما تهیه کردیم
