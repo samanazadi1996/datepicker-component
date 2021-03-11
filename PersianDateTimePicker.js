@@ -155,6 +155,26 @@ function namInitializationValue(number, IVal) {
 function get2D(num) {
     return (num.toString().length < 2 ? "0" + num : num).toString();
 }
+function PersianDateToGregorianDate(date) {
+    var year="";
+    var Month="";
+    var day="";
+    if (date.includes('-')) {
+        year=date.split('-')[0];
+        Month=date.split('-')[1];
+        day=date.split('-')[2];
+    }else{
+        year=date.split('/')[0];
+        Month=date.split('/')[1];
+        day=date.split('/')[2];
+
+    }   
+    return (jalaliToGregorian(
+        year,
+        Month,
+        day
+      ).join("/")).toString();
+}
 function GregorianDateToPersianDate(date, typeDate) {
     let PDate;
     if (typeDate.toLowerCase() == "shortdate") {
