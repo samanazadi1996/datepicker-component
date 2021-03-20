@@ -1,6 +1,6 @@
 //repositories in github.com
 //https://github.com/samanazadi1996/PersianDatePicker
-//moore component https://github.com/samanazadi1996
+//more component https://github.com/samanazadi1996
 
 jQuery.fn.extend({
     SA_DatePicker: function (model = false) 
