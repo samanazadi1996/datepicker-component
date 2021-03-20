@@ -1,5 +1,5 @@
 //repositories in github.com
-//https://github.com/samanazadi1996/datepicker-component
+//https://github.com/samanazadi1996/PersianDatePicker
 //moore component https://github.com/samanazadi1996
 
 jQuery.fn.extend({
